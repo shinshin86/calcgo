@@ -6,3 +6,6 @@ test:
 
 fmt:
 	go fmt cmd/
+
+build:
+	sh ./build.sh
