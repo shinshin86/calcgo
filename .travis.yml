@@ -1,0 +1,7 @@
+language: go
+
+install:
+ - go get -u github.com/spf13/cobra/cobra
+
+script:
+ - make test
