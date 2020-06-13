@@ -1,8 +1,8 @@
 # culcgo
 
-Implement the basic arithmetic operations (for learning Go)
+Implement CLI tools of the basic arithmetic operations (for learning Go)
 
-
+[![Build Status](https://travis-ci.org/shinshin86/calcgo.svg?branch=master)](https://travis-ci.org/shinshin86/calcgo)
 
 ## Usage
 
@@ -26,5 +26,15 @@ go run main.go div 10 5
 
 ```bash
 make test
+```
+
+
+
+## Build
+
+After running the "make build" command, executable file under the "bin" directory is generated.
+
+```bash
+make build
 ```
 
