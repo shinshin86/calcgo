@@ -38,3 +38,12 @@ After running the "make build" command, executable file under the "bin" director
 make build
 ```
 
+
+
+## Docker
+
+```bash
+docker build -t calcgo .
+docker run -it --rm --name calcgo1 calcgo make dev
+```
+
